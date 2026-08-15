@@ -1,0 +1,395 @@
+{
+  "personal": {
+    "name": "Shafi Munshi",
+    "handle": "ShafiMunshi",
+    "role": "Mobile App Developer",
+    "title": "Mobile App Developer • Flutter Specialist",
+    "bio": "A full stack mobile app developer based in Bangladesh. Specializing in Flutter, offline-first applications, and scalable backend services with Rust (Axum). Need a mobile app? Let's build something amazing together!",
+    "shortBio": "A full stack mobile app developer based in Bangladesh. Need a mobile app? Let's build something amazing together!",
+    "avatar": "/assets/images/me.jpg",
+    "location": "Mirpur 10, Dhaka, Bangladesh",
+    "resumeUrl": "https://drive.google.com/file/d/1fy8F9e9T2Q6XFmWWtlYUZAshPu6gdZOt/view?usp=sharing",
+    "availability": {
+      "status": "available",
+      "text": "Available for New Projects"
+    },
+    "contact": {
+      "emails": [
+        "shafimunshi111@gmail.com",
+        "shafimunshi66@gmail.com"
+      ],
+      "phones": [
+        "+8801300100574",
+        "+8801409530856"
+      ],
+      "whatsapp": "+8801300100574",
+      "whatsappUrl": "https://wa.me/8801300100574",
+      "address": "Mirpur 10, Dhaka, Bangladesh",
+      "github": "https://github.com/ShafiMunshi/",
+      "linkedin": "https://www.linkedin.com/in/mosharop-hossain-b82112381",
+      "resumeUrl": "https://drive.google.com/file/d/1fy8F9e9T2Q6XFmWWtlYUZAshPu6gdZOt/view?usp=sharing"
+    }
+  },
+  "toolsAndTechnologies": [
+    { "name": "Flutter", "highlight": true },
+    { "name": "Dart", "highlight": true },
+    { "name": "Axum", "highlight": false },
+    { "name": "Firebase", "highlight": false },
+    { "name": "Supabase", "highlight": false },
+    { "name": "Git", "highlight": false },
+    { "name": "REST APIs", "highlight": false },
+    { "name": "GraphQL", "highlight": false },
+    { "name": "SQLite", "highlight": false },
+    { "name": "Isar", "highlight": false },
+    { "name": "Drift", "highlight": false },
+    { "name": "PostgreSQL", "highlight": false }
+  ],
+  "coreHighlights": [
+    {
+      "id": "patterns",
+      "title": "Design Patterns",
+      "tagline": "MVP • MVVM • Clean Architecture",
+      "description": "I have knowledge of MVP (Model-View-Presenter), MVVM (Model-View-ViewModel), or Clean Architecture.",
+      "icon": "Layers"
+    },
+    {
+      "id": "concepts",
+      "title": "Core Concepts",
+      "tagline": "Lifecycle • Widgets • Threading",
+      "description": "I have understanding of fundamental concepts like activity lifecycle, Widgets, UI design principles, data storage, networking, and threading.",
+      "icon": "Cpu"
+    },
+    {
+      "id": "problem_solving",
+      "title": "Problem-Solving",
+      "tagline": "Performance • Critical Thinking",
+      "description": "I can think critically and come up with innovative solutions to complex problems. I've identified bottlenecks, improved app performance, and implemented creative solutions.",
+      "icon": "Flame"
+    },
+    {
+      "id": "projects",
+      "title": "Projects",
+      "tagline": "Play Store • App Store • ERP",
+      "description": "On Play Store and App Store, I have live apps. Maximum apps were made by a single company (MAAC), used actively by ERP customers.",
+      "icon": "Rocket"
+    }
+  ],
+  "about": {
+    "badge": "About Me",
+    "title": "Building Better Apps with Better Experiences",
+    "description": [
+      "I am a mobile application engineer based in Dhaka, Bangladesh, with a deep focus on crafting high-performance, responsive Flutter applications.",
+      "Over the course of my career, I have architected and deployed production mobile applications ranging from enterprise Point-of-Sale (POS) and inventory systems to FinTech investment platforms, personal finance management apps, and educational tools.",
+      "I believe in building resilient software with offline-first capabilities, clean architecture, and intuitive user experiences that perform reliably in any environment."
+    ],
+    "philosophyPoints": [
+      {
+        "title": "Offline-First Reliability",
+        "description": "Local storage and synchronization ensure uninterrupted workflows even with weak or dropped connections."
+      },
+      {
+        "title": "Clean Architecture",
+        "description": "Decoupled domain logic and UI layer separation ensure maintainability and testability."
+      },
+      {
+        "title": "Performance Focused",
+        "description": "Optimized widget rendering, background isolates, and memory management for silky 60/120 FPS."
+      }
+    ]
+  },
+  "featuredProjects": [
+    {
+      "id": "tijarah",
+      "title": "Tijarah",
+      "subtitle": "A POS and Inventory Management System for Small and Medium Businesses",
+      "tagline": "POS & Inventory System",
+      "category": "Retail & POS",
+      "platforms": ["Android"],
+      "badge": "Android",
+      "isFlagship": true,
+      "image": "/assets/images/tijarah_cover.png",
+      "shortDescription": "Comprehensive point-of-sale solution with real-time inventory tracking, sales analytics, purchase orders, offline-first sync, invoice generation, expense management, and multi-location support for retail businesses.",
+      "overview": "Tijarah is a point-of-sale and inventory system designed for retail stores and businesses, featuring full offline-first functionality, receipt printing, and stock management.",
+      "problem": "Unstable network connections frequently disrupt sales and point-of-sale checkouts in retail stores.",
+      "solution": "Built an offline-first transactional engine using local SQLite/Drift with background queue sync upon reconnection.",
+      "keyFeatures": [
+        "POS & Rapid Barcode Checkout",
+        "Real-Time Multi-Location Inventory & Stock Management",
+        "Offline-First Operation with Auto Synchronization",
+        "Purchase Orders & Supplier Management",
+        "Invoice Generation & Thermal Receipt Printing",
+        "Expense Tracking & Daily Cashflow Reports",
+        "Staff Role Permissions & Secure Access",
+        "Recycle Bin for Safe Record Recovery",
+        "Low-Stock Alerts & Notification Engine"
+      ],
+      "engineeringHighlights": [
+        "Built with Flutter and Clean Architecture",
+        "Local persistence with SQLite and Drift reactive queries",
+        "Fault-tolerant offline sync queue"
+      ],
+      "techStack": [
+        "Flutter",
+        "Dart",
+        "Offline-First",
+        "SQLite",
+        "Drift",
+        "REST APIs"
+      ],
+      "links": {
+        "playStore": "https://play.google.com/store/apps/details?id=com.ragory.tijarah.software&pcampaignid=web_share"
+      }
+    },
+    {
+      "id": "sofiaiq",
+      "title": "SofiaIQ Rust",
+      "subtitle": "Educational app to learn Rust programming language",
+      "tagline": "EdTech & Learning",
+      "category": "EdTech",
+      "platforms": ["Android", "iOS"],
+      "badge": "Android & iOS",
+      "isFlagship": false,
+      "image": "/assets/images/sofiaiq_cover.png",
+      "shortDescription": "Interactive learning platform featuring hands-on coding exercises, memory safety tutorials, quiz modules, and performance optimization guides for Rust developers.",
+      "overview": "Interactive mobile application designed to help developers learn Rust systems programming through quizzes, memory safety guides, and code walkthroughs.",
+      "keyFeatures": [
+        "Modular Rust Lessons & Guides",
+        "Ownership & Lifetime Visual Concepts",
+        "Interactive Coding Quizzes",
+        "Offline Course Access & Bookmarks"
+      ],
+      "engineeringHighlights": [
+        "Cross-platform deployment to Google Play and Apple App Store",
+        "Custom code syntax renderer optimized for mobile screens"
+      ],
+      "techStack": ["Flutter", "Dart", "Rust Concepts", "SQLite"],
+      "links": {
+        "playStore": "https://play.google.com/store/apps/details?id=com.preciq.sofiaiqrust&pcampaignid=web_share",
+        "appStore": "https://apps.apple.com/in/app/sofiaiq-rust/id6739019042"
+      }
+    },
+    {
+      "id": "lenden",
+      "title": "Len Den App",
+      "subtitle": "Self finance management app",
+      "tagline": "Personal Finance",
+      "category": "FinTech",
+      "platforms": ["Android"],
+      "badge": "Android",
+      "isFlagship": false,
+      "image": "/assets/images/lendeng_pic.png",
+      "shortDescription": "Len Den is a simple yet powerful personal finance management app supporting local first architecture that helps you track your income and expenses, set budgets, and achieve your financial goals. It provides real-time insights into your spending habits, helping you make informed decisions about your money.",
+      "overview": "Personal finance and debt ledger app providing private, local-first transaction tracking and budget analytics.",
+      "keyFeatures": [
+        "Income & Expense Tracking",
+        "Borrower & Lender (Len-Den) Records",
+        "Local-First Architecture for Privacy",
+        "Real-Time Spending Insights & Charts",
+        "PDF Report Export"
+      ],
+      "engineeringHighlights": [
+        "Embedded SQLite local storage with zero cloud latency",
+        "Reactive charts and budget progress indicators"
+      ],
+      "techStack": ["Flutter", "Dart", "Local-First", "SQLite"],
+      "links": {
+        "playStore": "https://play.google.com/store/apps/details?id=com.nayeem.costflow"
+      }
+    },
+    {
+      "id": "mealghor",
+      "title": "Meal Ghor",
+      "subtitle": "Meal management app for bachelors",
+      "tagline": "Shared Living",
+      "category": "Lifestyle",
+      "platforms": ["Android"],
+      "badge": "Android",
+      "isFlagship": false,
+      "image": "/assets/images/meal_pic.png",
+      "shortDescription": "User-friendly meal planning and management app designed for bachelors, offering recipe suggestions, grocery lists, and meal scheduling features to simplify daily cooking routines.",
+      "overview": "Meal and grocery ledger app for university students and bachelors living in shared housing, calculating shared meal rates and balances.",
+      "keyFeatures": [
+        "Daily Meal Count Logging",
+        "Shared Grocery Expense & Deposit Ledger",
+        "Automatic Meal Rate Calculation",
+        "Monthly Settlement Reports"
+      ],
+      "engineeringHighlights": [
+        "Real-time synchronized ledger across mess members",
+        "Accurate calculation engine handling shared deposits"
+      ],
+      "techStack": ["Flutter", "Dart", "Firebase", "Realtime Sync"],
+      "links": {
+        "playStore": "https://play.google.com/store/apps/details?id=com.novice_dev.meal_ghor"
+      }
+    },
+    {
+      "id": "invi",
+      "title": "Invi",
+      "subtitle": "Mobile app version of Invi web platform",
+      "tagline": "Investment Platform",
+      "category": "FinTech",
+      "platforms": ["Android"],
+      "badge": "Android",
+      "isFlagship": false,
+      "image": "/assets/images/invi_cover.png",
+      "shortDescription": "Cross-platform mobile application providing seamless access to investment portfolio management, real-time market data, and financial planning tools.",
+      "overview": "Mobile client for investment management, giving users access to market telemetry and asset valuations.",
+      "keyFeatures": [
+        "Real-Time Asset Valuation",
+        "Performance & Trend Charts",
+        "Market Watchlists & Alerts",
+        "Biometric Security"
+      ],
+      "engineeringHighlights": [
+        "REST API integration with WebSockets for market updates",
+        "Clean architecture with secure local token storage"
+      ],
+      "techStack": ["Flutter", "REST APIs", "Clean Architecture"],
+      "links": {
+        "playStore": "https://play.google.com/store/apps/details?id=com.ragory.invi.software&pcampaignid=web_share"
+      }
+    },
+    {
+      "id": "invi_client",
+      "title": "Invi Client",
+      "subtitle": "For Business sub client",
+      "tagline": "Enterprise FinTech",
+      "category": "Enterprise",
+      "platforms": ["Android", "iOS"],
+      "badge": "Android & iOS",
+      "isFlagship": false,
+      "image": "/assets/images/invi_client_cover.png",
+      "shortDescription": "Enterprise dashboard for business clients to manage investment accounts, track performance metrics, and access institutional-grade financial services.",
+      "overview": "Enterprise portal for corporate clients to oversee multi-account portfolios and monitor performance metrics.",
+      "keyFeatures": [
+        "Business Client Portfolio Management",
+        "Multi-Tier Transaction Authorizations",
+        "Institutional ROI & Risk Analytics",
+        "Compliance & History Auditing"
+      ],
+      "engineeringHighlights": [
+        "Role-based access control and encrypted communications",
+        "Published for both Android and iOS platforms"
+      ],
+      "techStack": ["Flutter", "Dart", "Enterprise Security", "REST APIs"],
+      "links": {
+        "playStore": "https://play.google.com/store/apps/details?id=com.ragory.invi.client&pcampaignid=web_share",
+        "appStore": "https://apps.apple.com/in/app/invi-client/id6745792579"
+      }
+    },
+    {
+      "id": "invi_sr",
+      "title": "Invi SR",
+      "subtitle": "For Service Recipient sub client",
+      "tagline": "Advisory Client Portal",
+      "category": "FinTech",
+      "platforms": ["Android"],
+      "badge": "Android",
+      "isFlagship": false,
+      "image": "/assets/images/invi_sr_cover.png",
+      "shortDescription": "Specialized interface for service recipients to monitor investment progress, access personalized recommendations, and communicate with financial advisors.",
+      "overview": "Client portal for service recipients to follow advisor recommendations and communicate securely with wealth advisors.",
+      "keyFeatures": [
+        "Goal-Based Investment Progress",
+        "Personalized Advisor Recommendations",
+        "Direct Advisor Communications",
+        "Milestone Alerts & Notifications"
+      ],
+      "engineeringHighlights": [
+        "Push notifications and secure messaging integration",
+        "Clean, accessible interface designed for mobile users"
+      ],
+      "techStack": ["Flutter", "Dart", "Push Notifications", "REST APIs"],
+      "links": {
+        "playStore": "https://play.google.com/store/apps/details?id=com.ragory.invi.sr&pcampaignid=web_share"
+      }
+    },
+    {
+      "id": "school",
+      "title": "LSE",
+      "subtitle": "Smart school management app",
+      "tagline": "School Management",
+      "category": "EdTech",
+      "platforms": ["Android", "iOS"],
+      "badge": "Android & iOS",
+      "isFlagship": false,
+      "image": "/assets/images/school_cover.png",
+      "shortDescription": "Integrated school administration platform featuring student enrollment, grade management, attendance tracking, and parent-teacher communication tools.",
+      "overview": "School administration and parent-teacher mobile application unifying student attendance, grades, and communication.",
+      "keyFeatures": [
+        "Digital Student Attendance",
+        "Gradebook & Exam Schedules",
+        "Fee Tracking & Notifications",
+        "Parent-Teacher Communication Channel"
+      ],
+      "engineeringHighlights": [
+        "Multi-role user states (Teacher / Student / Parent)",
+        "Published across Google Play Store and Apple App Store"
+      ],
+      "techStack": ["Flutter", "Dart", "Cloud Database", "Push Notifications"],
+      "links": {
+        "playStore": "https://play.google.com/store/apps/details?id=com.ragory.lse&pcampaignid=web_share",
+        "appStore": "https://apps.apple.com/in/app/london-school-of-english-lse/id6745716675"
+      }
+    }
+  ],
+  "experience": [
+    {
+      "period": "2022 — Present",
+      "role": "Mobile Application Developer",
+      "company": "MAAC / Enterprise Solutions",
+      "location": "Dhaka, Bangladesh",
+      "summary": "Building production mobile applications and offline-first software solutions for enterprise ERP clients, POS retail setups, and financial platforms.",
+      "achievements": [
+        "Developed and deployed commercial mobile applications across Google Play Store and Apple App Store.",
+        "Engineered Tijarah POS with offline-first SQLite/Drift synchronization for retail merchants.",
+        "Built the Invi mobile suite for business clients and service recipients with real-time APIs.",
+        "Optimized mobile app performance, UI responsiveness, and memory usage."
+      ],
+      "technologies": [
+        "Flutter",
+        "Dart",
+        "Offline-First",
+        "SQLite",
+        "Drift",
+        "Axum",
+        "REST APIs"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science in Computer Science & Engineering (B.Sc. in CSE)",
+      "institution": "Computer Science & Engineering",
+      "location": "Bangladesh",
+      "highlights": "Core focus on Software Engineering, Data Structures, Database Systems, and Mobile Application Development."
+    }
+  ],
+  "engineeringPhilosophy": [
+    {
+      "number": "01",
+      "title": "Offline-First by Design",
+      "description": "Network drops shouldn't break the user experience. Local-first databases and background sync ensure seamless continuity.",
+      "icon": "Database"
+    },
+    {
+      "number": "02",
+      "title": "Clean Architecture",
+      "description": "Decoupled layers keep the code maintainable, testable, and ready for long-term evolution.",
+      "icon": "ShieldCheck"
+    },
+    {
+      "number": "03",
+      "title": "Performance & Fluidity",
+      "description": "Smooth 60/120 FPS rendering, optimized widget builds, and low memory footprint.",
+      "icon": "Zap"
+    },
+    {
+      "number": "04",
+      "title": "Problem-Solving Mindset",
+      "description": "Building practical solutions tailored to real users, store managers, and business workflows.",
+      "icon": "HeartHandshake"
+    }
+  ]
+}
