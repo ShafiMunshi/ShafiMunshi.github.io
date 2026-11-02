@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, ExternalLink, Smartphone, CheckCircle2, Cpu, AlertCircle, ArrowUpRight } from 'lucide-react';
+import { X, ExternalLink, Smartphone, Apple, Globe, CheckCircle2, Cpu, AlertCircle, ArrowUpRight } from 'lucide-react';
 import { Project } from '../types/portfolio';
 import { TechBadge } from './TechBadge';
 
@@ -57,7 +57,11 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) 
                 {project.category}
               </span>
               <div className="flex items-center gap-1.5 text-xs text-muted-foreground font-mono">
-                <Smartphone className="w-3.5 h-3.5" />
+                {project.platforms.includes('Web') ? (
+                  <Globe className="w-3.5 h-3.5" />
+                ) : (
+                  <Smartphone className="w-3.5 h-3.5" />
+                )}
                 {project.platforms.join(' & ')}
               </div>
             </div>
@@ -96,6 +100,18 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) 
 
                 {/* Direct Action Links */}
                 <div className="flex flex-wrap gap-2 pt-2">
+                  {project.links.website && (
+                    <a
+                      href={project.links.website}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium rounded-lg bg-emerald-600 text-white hover:bg-emerald-500 transition-colors shadow-sm"
+                    >
+                      <Globe className="w-3.5 h-3.5" />
+                      Live Website
+                      <ArrowUpRight className="w-3 h-3" />
+                    </a>
+                  )}
                   {project.links.playStore && (
                     <a
                       href={project.links.playStore}
@@ -115,7 +131,7 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) 
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium rounded-lg bg-slate-800 dark:bg-slate-700 text-white hover:bg-slate-700 dark:hover:bg-slate-600 transition-colors shadow-sm"
                     >
-                      <ExternalLink className="w-3.5 h-3.5" />
+                      <Apple className="w-3.5 h-3.5" />
                       Apple App Store
                       <ArrowUpRight className="w-3 h-3" />
                     </a>

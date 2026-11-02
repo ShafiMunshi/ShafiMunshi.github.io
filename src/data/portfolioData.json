@@ -33,6 +33,8 @@
   "toolsAndTechnologies": [
     { "name": "Flutter", "highlight": true },
     { "name": "Dart", "highlight": true },
+    { "name": "Next.js", "highlight": true },
+    { "name": "React", "highlight": false },
     { "name": "Axum", "highlight": false },
     { "name": "Firebase", "highlight": false },
     { "name": "Supabase", "highlight": false },
@@ -104,8 +106,8 @@
       "subtitle": "A POS and Inventory Management System for Small and Medium Businesses",
       "tagline": "POS & Inventory System",
       "category": "Retail & POS",
-      "platforms": ["Android"],
-      "badge": "Android",
+      "platforms": ["Android", "iOS"],
+      "badge": "Android & iOS",
       "isFlagship": true,
       "image": "/assets/images/tijarah_cover.png",
       "shortDescription": "Comprehensive point-of-sale solution with real-time inventory tracking, sales analytics, purchase orders, offline-first sync, invoice generation, expense management, and multi-location support for retail businesses.",
@@ -137,13 +139,14 @@
         "REST APIs"
       ],
       "links": {
-        "playStore": "https://play.google.com/store/apps/details?id=com.ragory.tijarah.software&pcampaignid=web_share"
+        "playStore": "https://play.google.com/store/apps/details?id=com.ragory.tijarah.software&pcampaignid=web_share",
+        "appStore": "https://apps.apple.com/in/app/tijarah-sales-accounts/id6749071847"
       }
     },
     {
       "id": "sofiaiq",
-      "title": "SofiaIQ Rust",
-      "subtitle": "Educational app to learn Rust programming language",
+      "title": "SofiaIQ: Master Code with Rust",
+      "subtitle": "Interactive EdTech platform to master the Rust programming language",
       "tagline": "EdTech & Learning",
       "category": "EdTech",
       "platforms": ["Android", "iOS"],
@@ -165,7 +168,49 @@
       "techStack": ["Flutter", "Dart", "Rust Concepts", "SQLite"],
       "links": {
         "playStore": "https://play.google.com/store/apps/details?id=com.preciq.sofiaiqrust&pcampaignid=web_share",
-        "appStore": "https://apps.apple.com/in/app/sofiaiq-rust/id6739019042"
+        "appStore": "https://apps.apple.com/in/app/sofiaiq-master-code-with-rust/id6739019042"
+      }
+    },
+    {
+      "id": "otrimo",
+      "title": "Otrimo",
+      "subtitle": "Travel & Tour Package Booking Platform for Travelers & Tour Agencies",
+      "tagline": "Travel & Tourism Platform",
+      "category": "Full-Stack Web",
+      "platforms": ["Web"],
+      "badge": "Next.js Web",
+      "isFlagship": true,
+      "image": "/assets/images/otrimo_cover.png",
+      "shortDescription": "A modern travel marketplace and package management platform built with Next.js, enabling travelers to explore and book holiday packages and hotel stays, while providing tour agencies with comprehensive tools to publish and manage their offerings.",
+      "overview": "Otrimo is an end-to-end travel platform connecting travelers with verified tour agencies. Travelers can browse curated holiday packages, sacred Hajj & Umrah pilgrimage itineraries, luxury hotel reservations, and express visa services. Tour agencies get a dedicated suite to publish, schedule, price, and manage tour offerings with real-time customer bookings.",
+      "problem": "Tour agencies struggle to manage and distribute multi-day travel itineraries and hotel bookings across multiple channels, while travelers face fragmented platforms with lack of transparent pricing and real-time package availability.",
+      "solution": "Engineered a high-performance, SEO-optimized web application using Next.js with Server-Side Rendering (SSR), structured package catalogs, dynamic booking workflows, and an agency management dashboard.",
+      "keyFeatures": [
+        "Curated Holiday Tours & Multi-Day Travel Packages",
+        "Agency Portal to Create, Price & Manage Packages",
+        "Real-Time Booking & Reservation System",
+        "Sacred Hajj & Umrah Pilgrimage Itineraries",
+        "Worldwide Luxury Hotel Reservations",
+        "Express Visa Assistance & Processing Workflows",
+        "Responsive, Mobile-First Design & Seamless Navigation",
+        "High-Performance Server-Side Rendering (SSR) & Dynamic Routing"
+      ],
+      "engineeringHighlights": [
+        "Built with Next.js App Router for optimal performance and SEO",
+        "Dynamic server-side rendering (SSR) and prefetching for instantaneous page loads",
+        "Scalable agency package catalog and traveler booking architecture",
+        "Modern responsive UI optimized across desktop and mobile browsers"
+      ],
+      "techStack": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Server-Side Rendering (SSR)",
+        "REST APIs"
+      ],
+      "links": {
+        "website": "https://otrimo.com"
       }
     },
     {
@@ -229,8 +274,8 @@
       "subtitle": "Mobile app version of Invi web platform",
       "tagline": "Investment Platform",
       "category": "FinTech",
-      "platforms": ["Android"],
-      "badge": "Android",
+      "platforms": ["Android", "iOS"],
+      "badge": "Android & iOS",
       "isFlagship": false,
       "image": "/assets/images/invi_cover.png",
       "shortDescription": "Cross-platform mobile application providing seamless access to investment portfolio management, real-time market data, and financial planning tools.",
@@ -247,7 +292,8 @@
       ],
       "techStack": ["Flutter", "REST APIs", "Clean Architecture"],
       "links": {
-        "playStore": "https://play.google.com/store/apps/details?id=com.ragory.invi.software&pcampaignid=web_share"
+        "playStore": "https://play.google.com/store/apps/details?id=com.ragory.invi.software&pcampaignid=web_share",
+        "appStore": "https://apps.apple.com/in/app/invi-admin/id6757327980"
       }
     },
     {

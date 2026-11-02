@@ -4,6 +4,7 @@ import {
   Sparkles, 
   Database, 
   Smartphone, 
+  Apple,
   Layers, 
   ShieldCheck, 
   ArrowUpRight, 
@@ -152,6 +153,18 @@ export const TijarahSpotlight: React.FC<TijarahSpotlightProps> = ({
                 >
                   <Smartphone className="w-4 h-4 text-emerald-500" />
                   <span>Google Play</span>
+                </a>
+              )}
+
+              {project.links.appStore && (
+                <a
+                  href={project.links.appStore}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-4 py-2.5 text-sm font-medium rounded-xl bg-muted hover:bg-muted/80 text-foreground border border-border transition-all duration-200"
+                >
+                  <Apple className="w-4 h-4 text-sky-500" />
+                  <span>App Store</span>
                 </a>
               )}
             </div>

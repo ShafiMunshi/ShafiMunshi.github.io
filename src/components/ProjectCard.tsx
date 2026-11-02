@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Smartphone, ExternalLink, ArrowUpRight, Info } from 'lucide-react';
+import { Smartphone, Apple, Globe, ArrowUpRight, Info, Sparkles } from 'lucide-react';
 import { Project } from '../types/portfolio';
 
 interface ProjectCardProps {
@@ -18,8 +18,17 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project, onSelect, ind
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.4, delay: index * 0.05 }}
-      className="group relative rounded-3xl bg-card border border-border/80 hover:border-emerald-500/40 hover:shadow-xl transition-all duration-300 p-6 sm:p-8 overflow-hidden"
+      className={`group relative rounded-3xl bg-card border ${
+        project.isFlagship
+          ? 'border-emerald-500/50 shadow-lg shadow-emerald-500/5'
+          : 'border-border/80'
+      } hover:border-emerald-500/60 hover:shadow-xl transition-all duration-300 p-6 sm:p-8 overflow-hidden`}
     >
+      {/* Decorative accent for featured projects */}
+      {project.isFlagship && (
+        <div className="absolute -top-16 -right-16 w-44 h-44 bg-emerald-500/10 rounded-full blur-2xl pointer-events-none" />
+      )}
+
       <div className={`grid md:grid-cols-12 gap-6 lg:gap-8 items-center ${isImageRight ? 'md:flex-row-reverse' : ''}`}>
         
         {/* Mockup Image Container */}
@@ -48,9 +57,17 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project, onSelect, ind
               {project.title}
             </h3>
 
-            <span className="px-3 py-1 text-xs font-mono font-medium rounded-full bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 border border-emerald-500/30 shrink-0">
-              {project.badge}
-            </span>
+            <div className="flex items-center gap-2 shrink-0">
+              {project.isFlagship && (
+                <span className="px-2.5 py-0.5 text-xs font-mono font-medium rounded-full bg-amber-500/15 text-amber-600 dark:text-amber-400 border border-amber-500/30 flex items-center gap-1">
+                  <Sparkles className="w-3 h-3 text-amber-500" />
+                  Featured
+                </span>
+              )}
+              <span className="px-3 py-1 text-xs font-mono font-medium rounded-full bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 border border-emerald-500/30">
+                {project.badge}
+              </span>
+            </div>
           </div>
 
           {/* Subtitle / Tagline */}
@@ -65,6 +82,19 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project, onSelect, ind
 
           {/* Action Buttons */}
           <div className="flex flex-wrap items-center gap-2.5 pt-2">
+            {project.links.website && (
+              <a
+                href={project.links.website}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 px-3.5 py-1.5 text-xs font-medium rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white transition-colors shadow-sm"
+              >
+                <Globe className="w-3.5 h-3.5" />
+                <span>Live Site</span>
+                <ArrowUpRight className="w-3 h-3" />
+              </a>
+            )}
+
             {project.links.playStore && (
               <a
                 href={project.links.playStore}
@@ -84,7 +114,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project, onSelect, ind
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 px-3.5 py-1.5 text-xs font-medium rounded-lg bg-card hover:bg-muted text-foreground border border-border transition-colors shadow-sm"
               >
-                <ExternalLink className="w-3.5 h-3.5 text-sky-500" />
+                <Apple className="w-3.5 h-3.5 text-sky-500" />
                 <span>App Store</span>
               </a>
             )}

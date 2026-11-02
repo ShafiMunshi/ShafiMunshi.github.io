@@ -157,9 +157,9 @@ export const Hero: React.FC<HeroProps> = ({ onOpenContact }) => {
                 <div className="absolute bottom-3 left-3 right-3 p-2.5 rounded-xl bg-background/85 backdrop-blur-md border border-border shadow-md flex items-center justify-between">
                   <div className="flex items-center gap-2">
                     <div className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-                    <span className="text-[11px] font-mono font-medium text-foreground">Flutter Specialist</span>
+                    <span className="text-[11px] font-mono font-medium text-foreground">Full-Stack & Mobile</span>
                   </div>
-                  <span className="text-[11px] font-mono font-bold text-emerald-500">8+ Apps Shipped</span>
+                  <span className="text-[11px] font-mono font-bold text-emerald-500">{portfolioData.featuredProjects.length}+ Products Shipped</span>
                 </div>
               </div>
 
