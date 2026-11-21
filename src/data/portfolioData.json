@@ -214,6 +214,36 @@
       }
     },
     {
+      "id": "ourcareworld",
+      "title": "Our Care World",
+      "subtitle": "Care management software for care staff",
+      "tagline": "Care Management",
+      "category": "HealthTech",
+      "platforms": ["Android", "iOS"],
+      "badge": "Android & iOS",
+      "isFlagship": false,
+      "image": "/assets/images/our_care_world_cover.svg",
+      "shortDescription": "Care management software that helps care staff run their day: log client sessions, record medications, clock in and out of shifts, and review the full history of their previous sessions.",
+      "overview": "Our Care World is a care management app built for care staff. It brings the daily work of visiting and supporting clients into one place, from clocking in at the start of a shift to logging each client session and the medications given.",
+      "problem": "Care staff often record sessions, medications and working hours on paper or across separate tools, which makes records easy to lose and hard to review.",
+      "solution": "Built a single app where staff clock in, log each client session and medication as it happens, and can look back through every previous session.",
+      "keyFeatures": [
+        "Client Session Logging",
+        "Medication Recording",
+        "Shift Clock-In Time Tracking",
+        "Complete History of Previous Sessions"
+      ],
+      "engineeringHighlights": [
+        "Staff-focused workflow designed for quick logging during visits",
+        "Structured session and medication records for easy review"
+      ],
+      "techStack": ["Flutter", "Dart", "REST APIs"],
+      "links": {
+        "playStore": "https://play.google.com/store/apps/details?id=com.ourcareworld.staff",
+        "appStore": "https://apps.apple.com/in/app/our-care-world-staff/id6782438009"
+      }
+    },
+    {
       "id": "lenden",
       "title": "Len Den App",
       "subtitle": "Self finance management app",
